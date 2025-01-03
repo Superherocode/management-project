@@ -1,7 +1,7 @@
 "use client";
 
-import { setIsSidebarCollapsed } from "@/State";
-import { useGetProjectsQuery } from "@/State/api";
+import { setIsSidebarCollapsed } from "@/state";
+import { useGetProjectsQuery } from "@/state/api";
 import { useAppDispatch, useAppSelector } from "@/app/redux";
 import { AlertCircle, AlertOctagon, AlertTriangle, Briefcase, ChevronDown, ChevronUp, Home, Layers3, LockIcon, LucideIcon, Search, Settings, ShieldAlert, User, Users, X } from "lucide-react";
 import Image from "next/image";
